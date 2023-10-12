@@ -1,0 +1,25 @@
+/**
+* This CSS will apply in the mashup builder
+**/
+.widget-demo-viewer::after {
+  background-image: url(../images/icon.svg);
+  content: ' ';
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+#gantt {
+  height: 700px;
+}
+.widget-ganttChart {
+  background-color: #dceaf8;
+  color: #4975A1;
+  font-weight: bold;
+}
+.gantt_container .bar-progress {
+	opacity: 0.7;
+}
+.gantt-container .popup-wrapper .title {
+	font-size: 15px;
+}
